@@ -8,7 +8,7 @@ This file is part of the GSM3 communications library for Arduino
 -- TCP/IP connections
 -- HTTP basic clients
 
-This library has been developed by Telefónica Digital - PDI -
+This library has been developed by TelefÃ³nica Digital - PDI -
 - Physical Internet Lab, as part as its collaboration with
 Arduino and the Open Hardware Community. 
 
@@ -114,7 +114,7 @@ int GSM3MobileMockupProvider::readSMS()
 int GSM3MobileMockupProvider::connectTCPClient(const char* server, int port, int id_socket)
 {
 	Serial.println("GSM3MobileMockupProvider::connectTCPClient()");
-	Serial.print(server);Serial.print(":");Serial.print(port);Serial.print("-");Serial.println(id_socket);
+	Serial.print(server);Serial.print(':');Serial.print(port);Serial.print('-');Serial.println(id_socket);
 }
 
 void GSM3MobileMockupProvider::writeSocket(const uint8_t *buf, size_t size, int id_socket)

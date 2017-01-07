@@ -8,7 +8,7 @@ This file is part of the GSM3 communications library for Arduino
 -- TCP/IP connections
 -- HTTP basic clients
 
-This library has been developed by Telefónica Digital - PDI -
+This library has been developed by TelefÃ³nica Digital - PDI -
 - Physical Internet Lab, as part as its collaboration with
 Arduino and the Open Hardware Community. 
 
@@ -268,7 +268,7 @@ void GSM3CircularBuffer::debugBuffer()
 	byte t1=tail;
 	Serial.println();
 	Serial.print(h1);
-	Serial.print(" ");
+	Serial.print(' ');
 	Serial.print(t1);
 	Serial.print('>');
 	for(byte b=h1; b!=t1; b=(b+1)& __BUFFERMASK__)
